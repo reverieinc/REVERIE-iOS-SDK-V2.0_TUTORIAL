@@ -26,13 +26,15 @@
     
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     [self.navigationItem setBackBarButtonItem:backItem];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     [[SDKManager sharedInstance] setKeyboardForUserInputView:self.txtView];
-    
 }
 
 - (IBAction)dissmissKeyboard:(id)sender  {
     [self.txtView resignFirstResponder];
-    
 }
 
 

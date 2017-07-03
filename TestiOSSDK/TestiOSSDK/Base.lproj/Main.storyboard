@@ -260,26 +260,26 @@
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It will first check locally. If language resources are not available then it will fetch from server and store locally. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ka9-Gd-e2l">
-                                <rect key="frame" x="16" y="10" width="343" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It will check language resource avaliability locally." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ka9-Gd-e2l">
+                                <rect key="frame" x="16" y="10" width="343" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="Inj-ex-fOA"/>
+                                    <constraint firstAttribute="height" constant="35" id="Inj-ex-fOA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It will check language resource avaliability locally." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8Dz-18-nUv">
-                                <rect key="frame" x="16" y="170" width="343" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It will first check locally. If language resources are not available then it will fetch from server and store locally. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8Dz-18-nUv">
+                                <rect key="frame" x="16" y="145" width="343" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="wPm-jm-qhP"/>
+                                    <constraint firstAttribute="height" constant="60" id="wPm-jm-qhP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0o-XU-eoE">
-                                <rect key="frame" x="62.5" y="80" width="250" height="40"/>
+                                <rect key="frame" x="62.5" y="55" width="250" height="40"/>
                                 <color key="backgroundColor" red="0.1333333333" green="0.57647058819999997" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="X2e-BU-5mw"/>
@@ -380,7 +380,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Te9-iW-tZd" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" backIndicatorImage="back" backIndicatorTransitionMaskImage="back" id="W5F-BT-zCQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" backIndicatorImage="back" backIndicatorTransitionMaskImage="back" id="W5F-BT-zCQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -401,9 +401,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="back" width="50" height="50"/>
+        <image name="back" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RNp-QL-ml4"/>
+        <segue reference="oXK-Bo-Ryf"/>
     </inferredMetricsTieBreakers>
 </document>
